@@ -3,10 +3,10 @@
 import { createApp } from 'vue'
 
 
-import ContadorOptions from './examples/ContadorComposicion.vue'
+import ProductList from './examples/ProductList.vue'
 
 
-const app = createApp(ContadorOptions)
+const app = createApp(ProductList)
 
 
 
