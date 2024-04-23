@@ -1,15 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<v-card>
+  <v-card-title>Acerca de esta tienda</v-card-title>
+  <v-card-text>
+    <p>
+      This is a simple e-commerce app built with Vue 3, Vite, and Vite-plugin-vue2.
+    </p>
+    <p>
+      The app has two views: Home and Cart. The Home view displays a list of products, and the Cart view displays the products added to the cart.
+    </p>
+    <p>
+      The app uses the Vue Router to manage the routes and the Vuex store to manage the state.
+    </p>
+  </v-card-text>
+</v-card>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 //import { createPinia } from 'pinia'
 
 import Contador from './examples/MiContadorOptions.vue'
-//import router from './router'
+import router from './router'
 
 const app = createApp(Contador)
 
